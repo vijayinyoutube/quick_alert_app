@@ -7,7 +7,7 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(
-            builder: (_) => const HomePage(title: 'Flutter Quick Alert'));
+            builder: (_) => const HomePage(title: 'Quick Alert'));
       default:
         return _errorRoute();
     }

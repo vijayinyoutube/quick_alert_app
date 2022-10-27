@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Quick Alert',
+      title: 'Quick Alert',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
