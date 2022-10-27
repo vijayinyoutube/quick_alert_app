@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quick_alert_app/Presentation/Screens/UI/home_page.dart';
+import '../Screens/UI/home_page.dart';
 
 class RouteGenerator {
   Route<dynamic> generateRoute(RouteSettings settings) {
@@ -7,7 +7,7 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(
-            builder: (_) => const HomePage(title: 'Flutter Quick Alert'));
+            builder: (_) => const HomePage(title: 'Quick Alert'));
       default:
         return _errorRoute();
     }

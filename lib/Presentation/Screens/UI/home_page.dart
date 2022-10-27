@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quick_alert_app/Presentation/Components/app_bar.dart';
+import '../../Components/app_bar.dart';
+import '../Widgets/list_view_builder.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key, required this.title}) : super(key: key);
@@ -10,6 +11,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(appBarTitle: title),
+      body: const ListViewBuilder(),
     );
   }
 }
