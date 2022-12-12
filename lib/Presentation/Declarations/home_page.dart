@@ -53,13 +53,6 @@ List<QuickAlertModel> quickAlertModel = [
     avatarColor: const Color(0xff32cdbb),
     type: QuickAlertType.confirm,
   ),
-  // QuickAlertModel(
-  //   title: 'Text',
-  //   subtitle: 'Text alert dialog',
-  //   icon: const Icon(Icons.local_phone, color: Colors.white),
-  //   avatarColor: const Color(0xff19cf6a),
-  //   type: QuickAlertType.custom,
-  // ),
   QuickAlertModel(
     title: 'Loading',
     subtitle: 'Loading alert dialog',
